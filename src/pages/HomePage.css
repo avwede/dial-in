@@ -1,4 +1,37 @@
-.background-img {
-    height: 100%;
-    width: 100%;
+.hero {
+    position: relative;
 }
+
+.hero-img {
+    height: 100%;
+    width: 100vw;
+    object-fit: cover;
+}
+
+.logo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 150px;
+    width: 150px;
+}
+
+.hero-title {
+    font-size: 55px;
+    line-height: 56px;
+    color: #fff;
+    position: absolute;
+    right: 10%;
+    left: 10%;
+    bottom: 0;
+    top: 40%;
+}
+
+.hero-title > h1 {
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+.hero-title > p {
+    font-family: 'Tiro Gurmukhi', serif;
+}
+
